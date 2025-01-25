@@ -1,7 +1,7 @@
 ffmpeg-python
 Flask
 Flask_Cors
-gradio==3.50.2
+gradio==4.44.1
 numpy==1.23.5
 pyworld
 scipy==1.10.0
