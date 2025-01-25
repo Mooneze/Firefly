@@ -4,6 +4,9 @@ import pickle
 
 import utils
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(

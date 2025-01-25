@@ -10,6 +10,9 @@ from diffusion.solver import train
 from diffusion.unit2mel import Unit2Mel
 from diffusion.vocoder import Vocoder
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 
 def parse_args(args=None, namespace=None):
     """Parse command-line arguments."""

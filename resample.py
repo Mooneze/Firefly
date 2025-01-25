@@ -9,6 +9,9 @@ import numpy as np
 from rich.progress import track
 from scipy.io import wavfile
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 
 def load_wav(wav_path):
     return librosa.load(wav_path, sr=None)

@@ -165,3 +165,12 @@ pretrain/
 .vscode/launch.json
 
 trained/**/
+trained/*
+!trained/put_trained_checkpoints_here
+
+# Rocm
+zluda/
+zluda_test.bat
+
+# Dev
+verbs.txt

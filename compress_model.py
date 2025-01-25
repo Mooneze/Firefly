@@ -5,6 +5,9 @@ import torch
 import utils
 from models import SynthesizerTrn
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 
 def copyStateDict(state_dict):
     if list(state_dict.keys())[0].startswith('module'):

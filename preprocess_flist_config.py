@@ -10,6 +10,9 @@ from tqdm import tqdm
 
 import diffusion.logger.utils as du
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 pattern = re.compile(r'^[\.a-zA-Z0-9_\/]+$')
 
 def get_wav_duration(file_path):

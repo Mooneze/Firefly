@@ -22,6 +22,9 @@ from models import (
 from modules.losses import discriminator_loss, feature_loss, generator_loss, kl_loss
 from modules.mel_processing import mel_spectrogram_torch, spec_to_mel_torch
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 logging.getLogger('matplotlib').setLevel(logging.WARNING)
 logging.getLogger('numba').setLevel(logging.WARNING)
 

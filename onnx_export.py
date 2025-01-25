@@ -6,6 +6,9 @@ import torch
 import utils
 from onnxexport.model_onnx_speaker_mix import SynthesizerTrn
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 parser = argparse.ArgumentParser(description='SoVitsSvc OnnxExport')
 
 def OnnxExport(path=None):

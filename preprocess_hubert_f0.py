@@ -18,6 +18,9 @@ import utils
 from diffusion.vocoder import Vocoder
 from modules.mel_processing import spectrogram_torch
 
+# noinspection PyUnresolvedReferences
+import libs.zluda_hijack
+
 logging.getLogger("numba").setLevel(logging.WARNING)
 logging.getLogger("matplotlib").setLevel(logging.WARNING)
 
